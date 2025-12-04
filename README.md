@@ -28,24 +28,24 @@ Unauthorized port scanning may violate local laws and acceptable use policies.
 
 ## ▶️ Usage
 
-### 1. Build
-
-dotnet build
-
-### 2. Run
-
-dotnet run
-### 3. Enter a domain
-
-write the domain (google.com):
-
-### Sample Output
-
-added port 0
-added port 1
-...
-open port detected: 80
-open port detected: 443
+  ### 1. Build
+  
+  dotnet build
+  
+  ### 2. Run
+  
+  dotnet run
+  ### 3. Enter a domain
+  
+  write the domain (google.com):
+  
+  ### Sample Output
+  
+  added port 0
+  added port 1
+  ...
+  open port detected: 80
+  open port detected: 443
 
 ## 🗂️ Notes
 Uses Dns.GetHostEntry() to resolve domain
